@@ -2,7 +2,6 @@
   sudo: yes
   gather_facts: no
   become_user: anser
-  become: True
   connection: ssh
 
   tasks:
