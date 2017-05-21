@@ -9,3 +9,6 @@
     register: date_output
 
   - debug: var=date_output
+
+  - name: "Install htop package"
+    yum: pkg=htop state=installed
