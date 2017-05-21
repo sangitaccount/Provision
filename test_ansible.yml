@@ -1,5 +1,4 @@
 - hosts: test_ansible 
-  sudo: yes
   gather_facts: no
   become_user: anser
   connection: ssh
