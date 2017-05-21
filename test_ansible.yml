@@ -1,6 +1,6 @@
-- hosts: test_ansible 
+- hosts: test_ansible
+  become: True
   gather_facts: no
-  become_user: anser
   connection: ssh
 
   tasks:
